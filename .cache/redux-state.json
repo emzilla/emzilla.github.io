@@ -1,0 +1,2172 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1531693670261,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "76a15a0391b86a13c49fb73a995e52b7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "44d8f3a886d05fcf2b8621521d5e8ae7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0984934efd0d8ceed12360294d9bff01",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d8c416a577d4a39c608d359be22a4bcc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5beec9a10694b038c9c90ad904e50f85",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1b15b8ffc3696fe51586e70d0ed1a459",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ed387099aa690736e8e72f3589889928",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.11",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.11",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7e9dc3eb1754e0fd0bcd80eba2349069",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.28",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.36",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-responsive-iframe",
+            "id": "Plugin gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "1.4.16",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "1.2.11",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.25",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-smartypants",
+            "id": "Plugin gatsby-remark-smartypants",
+            "name": "gatsby-remark-smartypants",
+            "version": "1.4.10",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-smartypants"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "da3fe021722da665f1b0f84f1cae0eb6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.36",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.36",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark",
+          "image",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.24"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1c28415dbb81f13915b03c77e8ae80e1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-responsive-iframe",
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "1.4.16",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "1.4.16",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "66ed6b3014207c72dde3ba3cd6d72d71",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "1.2.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "1.2.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "af4f212fd83b84b18736777af507f6d9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.25",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.6.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "840c37d2218083d526b9a3634efcccf2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-smartypants": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-smartypants",
+      "id": "Plugin gatsby-remark-smartypants",
+      "name": "gatsby-remark-smartypants",
+      "version": "1.4.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "1.4.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "retext",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d21b98ab330958c2a61115e6573d2827",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.16",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.16",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sharp",
+          "image"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.6.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "47a898e0569a8179b7b469261042e28d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.17.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a4e25fab7ca94c91f9228fa05b641444",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.15",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ab3ea2c1fa310f00bbc3a85b722cae03",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7823ba2f797e4c25899390701847d76d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cbf61e1dbd272a0290a13e18e0379a2d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.10",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3434407c90e8cde8863b737c495baa76",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "3797f508b7368f7da24377c847cc0ad0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-blog-no-styles",
+        "description": "Starter Gatsby Blog No Styles",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Noah Glusenkamp <noah.glusenkamp@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "css-loader",
+            "version": "^0.28.9"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.8.12"
+          },
+          {
+            "name": "gatsby-cli",
+            "version": "^1.1.58"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.8"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.4"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "^0.0.3"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^1.0.4"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.4"
+          },
+          {
+            "name": "gatsby-plugin-preact",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.2"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.10"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.2"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.4"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^1.2.1"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^1.4.3"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^1.4.3"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.4.3"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.1"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.15.0"
+          },
+          {
+            "name": "postcss-loader",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "style-loader",
+            "version": "^0.19.1"
+          },
+          {
+            "name": "styled-components",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.6"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-eslint",
+            "version": "^8.2.6"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.10.0"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^0.12.0"
+          },
+          {
+            "name": "prettier",
+            "version": "1.13.7"
+          },
+          {
+            "name": "prettier-eslint",
+            "version": "^8.8.2"
+          },
+          {
+            "name": "prettier-standard",
+            "version": "^8.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1d9fed3fa67dddc37391ee51e1dfb585",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Emily Davidson",
+        "author": "Emily Davidson"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-07-15T22:27:46.671Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "85c3fa0fcd3fbeeb490391a7e54964af",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6596117afadbd01d47059a7427eaaa00",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 272,
+      "prettySize": "272 B",
+      "modifiedTime": "2018-07-15T21:35:19.000Z",
+      "accessTime": "2018-07-15T22:27:50.000Z",
+      "changeTime": "2018-07-15T21:35:19.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777219,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434982,
+      "blocks": 0,
+      "atimeMs": 1531693670000,
+      "mtimeMs": 1531690519000,
+      "ctimeMs": 1531690519000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T22:27:50.000Z",
+      "mtime": "2018-07-15T21:35:19.000Z",
+      "ctime": "2018-07-15T21:35:19.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8d3640eebde643125cd05692a6be666a",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world",
+      "relativePath": "2015-05-01-hello-world",
+      "extension": "",
+      "size": 136,
+      "prettySize": "136 B",
+      "modifiedTime": "2018-07-15T19:56:46.000Z",
+      "accessTime": "2018-07-15T22:27:50.000Z",
+      "changeTime": "2018-07-15T19:56:46.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "base": "2015-05-01-hello-world",
+      "ext": "",
+      "name": "2015-05-01-hello-world",
+      "relativeDirectory": "",
+      "dev": 16777219,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434983,
+      "blocks": 0,
+      "atimeMs": 1531693670000,
+      "mtimeMs": 1531684606000,
+      "ctimeMs": 1531684606000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T22:27:50.000Z",
+      "mtime": "2018-07-15T19:56:46.000Z",
+      "ctime": "2018-07-15T19:56:46.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "00c22962b3a15493637334c3622640c4",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post",
+      "relativePath": "2015-05-06-my-second-post",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-07-15T19:56:46.000Z",
+      "accessTime": "2018-07-15T22:27:50.000Z",
+      "changeTime": "2018-07-15T19:56:46.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "base": "2015-05-06-my-second-post",
+      "ext": "",
+      "name": "2015-05-06-my-second-post",
+      "relativeDirectory": "",
+      "dev": 16777219,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434985,
+      "blocks": 0,
+      "atimeMs": 1531693670000,
+      "mtimeMs": 1531684606000,
+      "ctimeMs": 1531684606000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T22:27:50.000Z",
+      "mtime": "2018-07-15T19:56:46.000Z",
+      "ctime": "2018-07-15T19:56:46.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "55e7de412b1ace7e9af344e3380e9ac5",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks",
+      "relativePath": "2015-05-28-hi-folks",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-07-15T19:56:46.000Z",
+      "accessTime": "2018-07-15T22:27:50.000Z",
+      "changeTime": "2018-07-15T19:56:46.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "base": "2015-05-28-hi-folks",
+      "ext": "",
+      "name": "2015-05-28-hi-folks",
+      "relativeDirectory": "",
+      "dev": 16777219,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434988,
+      "blocks": 0,
+      "atimeMs": 1531693670000,
+      "mtimeMs": 1531684606000,
+      "ctimeMs": 1531684606000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T22:27:50.000Z",
+      "mtime": "2018-07-15T19:56:46.000Z",
+      "ctime": "2018-07-15T19:56:46.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0135fde1bc1cda3d1f4af2ba7612459f",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx",
+      "relativePath": "about.jsx",
+      "extension": "jsx",
+      "size": 3289,
+      "prettySize": "3.29 kB",
+      "modifiedTime": "2018-07-15T21:42:44.000Z",
+      "accessTime": "2018-07-15T22:02:45.000Z",
+      "changeTime": "2018-07-15T21:42:44.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "base": "about.jsx",
+      "ext": ".jsx",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 16777219,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434990,
+      "blocks": 8,
+      "atimeMs": 1531692165000,
+      "mtimeMs": 1531690964000,
+      "ctimeMs": 1531690964000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T22:02:45.000Z",
+      "mtime": "2018-07-15T21:42:44.000Z",
+      "ctime": "2018-07-15T21:42:44.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "15893ae0373a794b308f020e730965f2",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
+      "relativePath": "index.jsx",
+      "extension": "jsx",
+      "size": 1697,
+      "prettySize": "1.7 kB",
+      "modifiedTime": "2018-07-15T21:43:36.000Z",
+      "accessTime": "2018-07-15T22:02:45.000Z",
+      "changeTime": "2018-07-15T21:43:36.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "base": "index.jsx",
+      "ext": ".jsx",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777219,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434991,
+      "blocks": 8,
+      "atimeMs": 1531692165000,
+      "mtimeMs": 1531691016000,
+      "ctimeMs": 1531691016000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T22:02:45.000Z",
+      "mtime": "2018-07-15T21:43:36.000Z",
+      "ctime": "2018-07-15T21:43:36.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fa8107c91dd11babce0acbc381d03201",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx",
+      "relativePath": "posts.jsx",
+      "extension": "jsx",
+      "size": 1729,
+      "prettySize": "1.73 kB",
+      "modifiedTime": "2018-07-15T22:14:53.000Z",
+      "accessTime": "2018-07-15T22:14:54.000Z",
+      "changeTime": "2018-07-15T22:14:53.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "base": "posts.jsx",
+      "ext": ".jsx",
+      "name": "posts",
+      "relativeDirectory": "",
+      "dev": 16777219,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434992,
+      "blocks": 8,
+      "atimeMs": 1531692894000,
+      "mtimeMs": 1531692893000,
+      "ctimeMs": 1531692893000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T22:14:54.000Z",
+      "mtime": "2018-07-15T22:14:53.000Z",
+      "ctime": "2018-07-15T22:14:53.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file",
+      "children": [
+        "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "72293c460c59ab906d3e224a7a2c9ebb",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md",
+      "relativePath": "2015-05-01-hello-world/index.md",
+      "extension": "md",
+      "size": 866,
+      "prettySize": "866 B",
+      "modifiedTime": "2018-07-15T19:56:46.000Z",
+      "accessTime": "2018-07-15T21:49:10.000Z",
+      "changeTime": "2018-07-15T19:56:46.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2015-05-01-hello-world",
+      "dev": 16777219,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434984,
+      "blocks": 8,
+      "atimeMs": 1531691350000,
+      "mtimeMs": 1531684606000,
+      "ctimeMs": 1531684606000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T21:49:10.000Z",
+      "mtime": "2018-07-15T19:56:46.000Z",
+      "ctime": "2018-07-15T19:56:46.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file",
+      "children": [
+        "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fef193964fc7c139bea1d17dad270f09",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md",
+      "relativePath": "2015-05-06-my-second-post/index.md",
+      "extension": "md",
+      "size": 403,
+      "prettySize": "403 B",
+      "modifiedTime": "2018-07-15T19:56:46.000Z",
+      "accessTime": "2018-07-15T21:49:10.000Z",
+      "changeTime": "2018-07-15T19:56:46.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2015-05-06-my-second-post",
+      "dev": 16777219,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434986,
+      "blocks": 8,
+      "atimeMs": 1531691350000,
+      "mtimeMs": 1531684606000,
+      "ctimeMs": 1531684606000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T21:49:10.000Z",
+      "mtime": "2018-07-15T19:56:46.000Z",
+      "ctime": "2018-07-15T19:56:46.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file",
+      "children": [
+        "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "02e333427bb8c7b38214ad21a4a27e26",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md",
+      "relativePath": "2015-05-28-hi-folks/index.md",
+      "extension": "md",
+      "size": 5495,
+      "prettySize": "5.5 kB",
+      "modifiedTime": "2018-07-15T19:56:46.000Z",
+      "accessTime": "2018-07-15T21:49:10.000Z",
+      "changeTime": "2018-07-15T19:56:46.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2015-05-28-hi-folks",
+      "dev": 16777219,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434989,
+      "blocks": 16,
+      "atimeMs": 1531691350000,
+      "mtimeMs": 1531684606000,
+      "ctimeMs": 1531684606000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T21:49:10.000Z",
+      "mtime": "2018-07-15T19:56:46.000Z",
+      "ctime": "2018-07-15T19:56:46.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Hello World\ndate: \"2015-05-01T22:12:03.284Z\"\npath: \"/hello-world/\"\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "contentDigest": "dc31178611ff7999fd54c12b1b59130f",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2015-05-01T22:12:03.284Z",
+        "path": "/hello-world/",
+        "_PARENT": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file",
+        "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: My Second Post!\ndate: \"2015-05-06T23:46:37.121Z\"\npath: \"/my-second-post/\"\n---\n\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from chicken eggs, though the taste and texture will be somewhat different, and the egg yolk will be less rich.\"? ([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+        "contentDigest": "2779585c6a896d62b199d900c3f581f5",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My Second Post!",
+        "date": "2015-05-06T23:46:37.121Z",
+        "path": "/my-second-post/",
+        "_PARENT": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file",
+        "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: New Beginnings\ndate: \"2015-05-28T22:40:32.169Z\"\npath: \"/hi-folks/\"\n---\n\nFar far away, behind the word mountains, far from the countries Vokalia\nand Consonantia, there live the blind texts. Separated they live in\nBookmarksgrove right at the coast of the Semantics, a large language\nocean. A small river named Duden flows by their place and supplies it\nwith the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of\nbad Commas, wild Question Marks and devious Semikoli, but the Little\nBlind Text didn’t listen. She packed her seven versalia, put her initial\ninto the belt and made herself on the way.\n\n*   This however showed weasel\n*   Well uncritical so misled\n    *   this is very interesting\n*   Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she\nhad a last view back on the skyline of her\nhometown _Bookmarksgrove_, the headline of [Alphabet\nVillage](http://google.com) and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith [Longe and Parole](http://google.com) and dragged her into\ntheir agency, where they abused her for their projects again and\nagain. And if she hasn’t been rewritten, then they are still using\nher.\n\n> Far far away, behind the word mountains, far from the countries\n> Vokalia and Consonantia, there live the blind texts. Separated\n> they live in Bookmarksgrove right at the coast of the Semantics, a\n> large language ocean. \n\nIt is a paradisematic country, in which roasted parts of sentences\nfly into your mouth. Even the all-powerful Pointing has no control\nabout the blind texts it is an almost unorthographic life One day\nhowever a small line of blind text by the name of Lorem Ipsum\ndecided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands\nof bad Commas, wild Question Marks and devious Semikoli, but the\nLittle Blind Text didn’t listen. She packed her seven versalia, put\nher initial into the belt and made herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the\nheadline of Alphabet Village and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n> The copy warned the Little Blind Text, that where it came from it\n> would have been rewritten a thousand times and everything that was\n> left from its origin would be the word \"and\" and the Little Blind\n> Text should turn around and return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they\nabused her for their projects again and again. And if she hasn’t\nbeen rewritten, then they are still using her. Far far away, behind\nthe word mountains, far from the countries Vokalia and Consonantia,\nthere live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the\nSemantics, a large language ocean. A small river named Duden flows\nby their place and supplies it with the necessary regelialia. It is\na paradisematic country, in which roasted parts of sentences fly\ninto your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts\nit is an almost unorthographic life One day however a small line of\nblind text by the name of Lorem Ipsum decided to leave for the far\nWorld of Grammar. The Big Oxmox advised her not to do so, because\nthere were thousands of bad Commas, wild Question Marks and devious\nSemikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and\nmade herself on the way. When she reached the first hills of the\nItalic Mountains, she had a last view back on the skyline of her\nhometown Bookmarksgrove, the headline of Alphabet Village and the\nsubline of her own road, the Line Lane. Pityful a rethoric question\nran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it\nwould have been rewritten a thousand times and everything that was\nleft from its origin would be the word \"and\" and the Little Blind\nText should turn around and return to its own, safe country. But\nnothing the copy said could convince her and so it didn’t take long\nuntil a few insidious Copy Writers ambushed her, made her drunk with\nLonge and Parole and dragged her into their agency, where they\nabused her for their projects again and again.\n",
+        "contentDigest": "58a23077592a4e77674bd35dafeb56db",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "New Beginnings",
+        "date": "2015-05-28T22:40:32.169Z",
+        "path": "/hi-folks/",
+        "_PARENT": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file",
+        "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file",
+      "children": [
+        "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg",
+      "relativePath": "2015-05-01-hello-world/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2018-07-15T19:56:46.000Z",
+      "accessTime": "2018-07-15T21:49:10.000Z",
+      "changeTime": "2018-07-15T19:56:46.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "2015-05-01-hello-world",
+      "dev": 16777219,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434987,
+      "blocks": 1344,
+      "atimeMs": 1531691350000,
+      "mtimeMs": 1531684606000,
+      "ctimeMs": 1531684606000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-15T21:49:10.000Z",
+      "mtime": "2018-07-15T19:56:46.000Z",
+      "ctime": "2018-07-15T19:56:46.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /hello-world/": {
+      "layout": "index",
+      "jsonName": "hello-world.json",
+      "internalComponentName": "ComponentHelloWorld",
+      "path": "/hello-world/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "componentChunkName": "component---src-templates-blog-post-jsx",
+      "context": {
+        "path": "/hello-world/"
+      },
+      "updatedAt": 1531693670278,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "id": "SitePage /hello-world/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "62e16fb665f0105bb112848dccfed561",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /my-second-post/": {
+      "layout": "index",
+      "jsonName": "my-second-post.json",
+      "internalComponentName": "ComponentMySecondPost",
+      "path": "/my-second-post/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "componentChunkName": "component---src-templates-blog-post-jsx",
+      "context": {
+        "path": "/my-second-post/"
+      },
+      "updatedAt": 1531693670278,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "id": "SitePage /my-second-post/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9009021d3112cce7a5455545ff485d20",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hi-folks/": {
+      "layout": "index",
+      "jsonName": "hi-folks.json",
+      "internalComponentName": "ComponentHiFolks",
+      "path": "/hi-folks/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "componentChunkName": "component---src-templates-blog-post-jsx",
+      "context": {
+        "path": "/hi-folks/"
+      },
+      "updatedAt": 1531693670279,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "id": "SitePage /hi-folks/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ec30e5afe9ca626f2a808433a97640f4",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx",
+      "componentChunkName": "component---src-pages-about-jsx",
+      "context": {},
+      "updatedAt": 1531693670288,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7e306cfb85a9d3001b5a594129a89514",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
+      "componentChunkName": "component---src-pages-index-jsx",
+      "context": {},
+      "updatedAt": 1531693670288,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "08e9d0c94400aa34e247230e581f3dea",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/": {
+      "layout": "index",
+      "jsonName": "posts.json",
+      "internalComponentName": "ComponentPosts",
+      "path": "/posts/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx",
+      "componentChunkName": "component---src-pages-posts-jsx",
+      "context": {},
+      "updatedAt": 1531693670289,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx",
+      "id": "SitePage /posts/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c7c8750af625f21fcf6617013628b413",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "92d411ec0c680665d5abd9016a8be30d"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/my-second-post/",
+        "/hello-world/",
+        "/hi-folks/",
+        "/about/",
+        "/",
+        "/posts/"
+      ],
+      "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark": [
+        "/my-second-post/"
+      ],
+      "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark": [
+        "/hello-world/"
+      ],
+      "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark": [
+        "/hi-folks/"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "MarkdownRemark": [
+        "/about/",
+        "/",
+        "/posts/"
+      ]
+    }
+  }
+}

@@ -1,7 +1,5 @@
-import React from 'react'
-import theme from './theme'
-
 import { injectGlobal } from 'styled-components'
+import theme from './theme'
 
 injectGlobal`
   html {
@@ -64,4 +62,4 @@ export Layout from './layout/layout'
 export LayoutFlex from './layout/layout-flex'
 export Logo from './logo/logo'
 export FeaturedContent from './featured-content/featured-content'
-export VisuallyHidden from './helpers/visuallyhidden.js'
+export VisuallyHidden from './helpers/visuallyhidden.jsx'

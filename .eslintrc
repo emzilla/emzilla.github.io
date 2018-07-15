@@ -10,7 +10,7 @@
     },
     "sourceType": "module"
   },
-  "extends": "airbnb",
+  "extends": ["airbnb", "plugin:react/recommended"],
   "plugins": ["react", "jsx-a11y", "import"],
   "rules": {
     "linebreak-style": ["error", "unix"],
@@ -18,6 +18,15 @@
     "semi": ["error", "never"],
     "space-before-function-paren": ["error", "always"],
     "jsx-quotes": ["error", "prefer-single"],
-    "generator-star-spacing": ["error", { "before": true, "after": true }]
+    "generator-star-spacing": ["error", { "before": true, "after": true }],
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+    "sort-imports": [
+      "error",
+      {
+        "memberSyntaxSortOrder": ["all", "single", "multiple", "none"]
+      }
+    ],
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1
   }
 }

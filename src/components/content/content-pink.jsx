@@ -1,7 +1,6 @@
-import React from 'react'
+import Content from './content'
 import styled from 'styled-components'
 import theme from '../theme'
-import Content from './content'
 
 const ContentPink = Content.extend`
   position: relative;
@@ -12,7 +11,7 @@ const ContentPink = Content.extend`
   }
 
   &:after {
-    background:${theme.primaryColorTransparent};
+    background: ${theme.primaryColorTransparent};
     content: '';
     height: 100%;
     position: absolute;

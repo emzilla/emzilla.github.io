@@ -1,6 +1,4 @@
-import React from 'react'
 import styled from 'styled-components'
-import theme from '../theme'
 
 const Content = styled.section`
   line-height: 1.3;
@@ -16,9 +14,9 @@ const Content = styled.section`
   }
 
   &:not(:first-of-type) {
-    margin-top: ${props => props.homeContent ? '0' : '3rem'};
+    margin-top: ${props => (props.homeContent ? '0' : '3rem')};
     @media (min-width: 44rem) {
-      margin-top: ${props => props.homeContent ? '0' : '6rem'};
+      margin-top: ${props => (props.homeContent ? '0' : '6rem')};
     }
   }
 `

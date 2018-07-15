@@ -10,13 +10,13 @@ const typography = new Typography({
   googleFonts: [
     {
       name: 'Playfair Display',
-      styles: ['700']
+      styles: ['700'],
     },
     {
       name: 'Muli',
-      styles: ['100']
-    }
-  ]
+      styles: ['100'],
+    },
+  ],
 })
 
 export default typography

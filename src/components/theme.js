@@ -1,6 +1,6 @@
 const theme = {
   // Theme colors
-  backgroundColor: '#212927' ,
+  backgroundColor: '#212927',
   primaryColor: 'rgba(254, 246, 247, 1)',
   primaryColorTransparent: 'rgba(255, 255, 255, 0.6)',
   secondaryColor: '#eaf4f1',

@@ -1,11 +1,10 @@
-import React from 'react'
+import Content from './content'
 import styled from 'styled-components'
 import theme from '../theme'
-import Content from './content'
 
 const ContentGreen = Content.extend`
   &:after {
-    background:${theme.secondaryColor};
+    background: ${theme.secondaryColor};
     content: '';
     height: 100%;
     position: absolute;

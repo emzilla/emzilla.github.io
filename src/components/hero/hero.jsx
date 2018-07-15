@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 import theme from '../theme'
 
@@ -15,7 +14,7 @@ const Hero = styled.section`
   }
 
   &:before {
-    background:${theme.secondaryColor};
+    background: ${theme.secondaryColor};
     content: '';
     height: 0;
     left: 5%;
@@ -33,7 +32,7 @@ const Hero = styled.section`
     }
   }
 
-   > img {
+  > img {
     max-height: 100%;
     margin-bottom: 0;
   }

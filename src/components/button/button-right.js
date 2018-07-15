@@ -8,6 +8,6 @@ const ButtonRight = Button.extend`
   border-image-slice: 1;
   position: absolute;
   right: 0;
-`;
+`
 
 export default ButtonRight

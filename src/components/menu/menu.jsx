@@ -39,9 +39,10 @@ const StyledMenu = styled.nav`
   color: ${theme.fontColorInverse};
   padding: ${theme.paddingLg};
   position: fixed;
-  transform: ${props => (props.isClosed ? 'translateY(-100%)' : 'translateY(0)')};
+  transform: ${props => (props.isClosed ? 'translateY(-160%)' : 'translateY(0)')};
   transition: transform ${theme.baseTransitionTiming} cubic-bezier(0.63, 0.4, 0.69, 1);
   width: 100%;
+  z-index: 20;
 
   ul {
     align-items: baseline;
@@ -82,13 +83,21 @@ const StyledMenu = styled.nav`
 const StyledButton = styled.button`
   background: transparent;
   border: none;
-  bottom: -120%;
+  bottom: 0;
   color: ${theme.fontColorInverse};
   height: 100%;
   padding: 0;
   position: absolute;
-  right: 1rem;
+  right: 0.75rem;
   width: 2.5rem;
+  transition: transform ${theme.baseTransitionTiming} cubic-bezier(0.63, 0.4, 0.69, 1);
+  transform: ${(props) => {
+    if (!props.isClosed) {
+      return 'translateY(0%)'
+    }
+    return 'translateY(160%)'
+  }};
+  z-index: 15;
 
   &:hover {
     cursor: pointer;
@@ -100,13 +109,17 @@ const StyledButton = styled.button`
 `
 
 const MenuLine = styled.span`
-  background-color: ${theme.backgroundColor};
+  background-color: ${(props) => {
+    if (props.isClosed) {
+      return theme.backgroundColor
+    }
+    return theme.primaryColor
+  }};
   border-radius: 5px;
   display: block;
   height: 5px;
   transform-origin: center;
-  width: 2.5rem;
-  z-index: 10;
+  width: 2.25rem;
 
   animation-name: ${(props) => {
     if (props.menuLineTop) {

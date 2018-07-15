@@ -13,11 +13,12 @@ const ContentPinkAlt = Content.extend`
     top: -2rem;
     transition: opacity 0.3s ease-in;
     right: -2rem;
-    width: 8rem;
+    width: 0rem;
     z-index: -3;
 
     @media (min-width: 60rem) {
       opacity: 1;
+      width: 8rem;
     }
   }
 

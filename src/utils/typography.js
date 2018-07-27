@@ -2,14 +2,14 @@
 import Typography from 'typography'
 
 const typography = new Typography({
-  baseFontSize: '18px',
-  baseLineHeight: 1.4,
-  headerFontFamily: ['Playfair Display', 'Georgia', 'serif'],
+  baseFontSize: '16px',
+  baseLineHeight: 1.3,
+  headerFontFamily: ['Fira Mono', 'Monaco', 'Courier', 'monospace'],
   bodyFontFamily: ['Muli', 'Arial', 'Helvetica', 'sans-serif'],
   bodyWeight: '100',
   googleFonts: [
     {
-      name: 'Playfair Display',
+      name: 'Fira Mono',
       styles: ['700'],
     },
     {

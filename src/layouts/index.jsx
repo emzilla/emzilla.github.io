@@ -10,9 +10,15 @@ class AppLayout extends React.Component {
       <div>
         {header}
         <Logo>
-          <Link to='/'>Emily Davidson</Link>
+          <Link to='/'>const home = &#40;link&#41; => emzil.la</Link>
         </Logo>
-        <Menu links={[{ path: '/about', name: 'about' }, { path: '/posts', name: 'posts' }]} />
+        <Menu
+          links={[
+            { path: '/about', name: 'about' },
+            { path: '/posts', name: 'posts' },
+            { path: '/resume', name: 'resume' },
+          ]}
+        />
         {children()}
       </div>
     )

@@ -38,7 +38,7 @@ const Hero = styled.section`
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     position: absolute;
     bottom: 2%;
     left: 2%;

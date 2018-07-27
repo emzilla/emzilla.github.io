@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 
 const Logo = styled.h1`
-  font-family: 'Playfair Display', 'Georgia', 'serif';
-  font-size: 1rem;
+  font-size: 0.75rem;
   position: absolute;
-  top: 28px;
+  top: 20px;
   left: 30px;
 
   a {

@@ -47,5 +47,26 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "posts.json",
         "path": "/posts/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "welcome.json",
+        "path": "/welcome/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "2018-07-26-welcome.json",
+        "path": "/2018-07-26/welcome/"
+    },
+    {
+        "componentChunkName": "component---src-pages-resume-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "resume.json",
+        "path": "/resume/"
     }
 ]

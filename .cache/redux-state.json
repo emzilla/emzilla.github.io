@@ -8,7 +8,7 @@
       "component": "/Users/emilydavidson/Sites/emzilla.github.io/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1531693670261,
+      "updatedAt": 1532652870490,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "76a15a0391b86a13c49fb73a995e52b7",
+        "contentDigest": "efab31f335bc37e5ea48531a8ca978b4",
         "owner": "internal-data-bridge"
       }
     },
@@ -1433,12 +1433,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-15T22:27:46.671Z",
+      "buildTime": "2018-07-27T00:21:59.503Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "85c3fa0fcd3fbeeb490391a7e54964af",
+        "contentDigest": "df7ab5f61297b5bbc387af523f66dfa0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1448,7 +1448,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6596117afadbd01d47059a7427eaaa00",
+        "contentDigest": "62cf1ecf56ac6087c65e090971dfd32d",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1459,7 +1459,7 @@
       "size": 272,
       "prettySize": "272 B",
       "modifiedTime": "2018-07-15T21:35:19.000Z",
-      "accessTime": "2018-07-15T22:27:50.000Z",
+      "accessTime": "2018-07-27T00:22:31.000Z",
       "changeTime": "2018-07-15T21:35:19.000Z",
       "birthTime": "2018-07-15T19:56:46.000Z",
       "root": "/",
@@ -1477,142 +1477,13 @@
       "blksize": 4096,
       "ino": 55434982,
       "blocks": 0,
-      "atimeMs": 1531693670000,
+      "atimeMs": 1532650951000,
       "mtimeMs": 1531690519000,
       "ctimeMs": 1531690519000,
       "birthtimeMs": 1531684606000,
-      "atime": "2018-07-15T22:27:50.000Z",
+      "atime": "2018-07-27T00:22:31.000Z",
       "mtime": "2018-07-15T21:35:19.000Z",
       "ctime": "2018-07-15T21:35:19.000Z",
-      "birthtime": "2018-07-15T19:56:46.000Z"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world absPath of file": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "8d3640eebde643125cd05692a6be666a",
-        "type": "Directory",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world",
-      "relativePath": "2015-05-01-hello-world",
-      "extension": "",
-      "size": 136,
-      "prettySize": "136 B",
-      "modifiedTime": "2018-07-15T19:56:46.000Z",
-      "accessTime": "2018-07-15T22:27:50.000Z",
-      "changeTime": "2018-07-15T19:56:46.000Z",
-      "birthTime": "2018-07-15T19:56:46.000Z",
-      "root": "/",
-      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
-      "base": "2015-05-01-hello-world",
-      "ext": "",
-      "name": "2015-05-01-hello-world",
-      "relativeDirectory": "",
-      "dev": 16777219,
-      "mode": 16877,
-      "nlink": 4,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55434983,
-      "blocks": 0,
-      "atimeMs": 1531693670000,
-      "mtimeMs": 1531684606000,
-      "ctimeMs": 1531684606000,
-      "birthtimeMs": 1531684606000,
-      "atime": "2018-07-15T22:27:50.000Z",
-      "mtime": "2018-07-15T19:56:46.000Z",
-      "ctime": "2018-07-15T19:56:46.000Z",
-      "birthtime": "2018-07-15T19:56:46.000Z"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post absPath of file": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "00c22962b3a15493637334c3622640c4",
-        "type": "Directory",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post",
-      "relativePath": "2015-05-06-my-second-post",
-      "extension": "",
-      "size": 102,
-      "prettySize": "102 B",
-      "modifiedTime": "2018-07-15T19:56:46.000Z",
-      "accessTime": "2018-07-15T22:27:50.000Z",
-      "changeTime": "2018-07-15T19:56:46.000Z",
-      "birthTime": "2018-07-15T19:56:46.000Z",
-      "root": "/",
-      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
-      "base": "2015-05-06-my-second-post",
-      "ext": "",
-      "name": "2015-05-06-my-second-post",
-      "relativeDirectory": "",
-      "dev": 16777219,
-      "mode": 16877,
-      "nlink": 3,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55434985,
-      "blocks": 0,
-      "atimeMs": 1531693670000,
-      "mtimeMs": 1531684606000,
-      "ctimeMs": 1531684606000,
-      "birthtimeMs": 1531684606000,
-      "atime": "2018-07-15T22:27:50.000Z",
-      "mtime": "2018-07-15T19:56:46.000Z",
-      "ctime": "2018-07-15T19:56:46.000Z",
-      "birthtime": "2018-07-15T19:56:46.000Z"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks absPath of file": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "55e7de412b1ace7e9af344e3380e9ac5",
-        "type": "Directory",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks",
-      "relativePath": "2015-05-28-hi-folks",
-      "extension": "",
-      "size": 102,
-      "prettySize": "102 B",
-      "modifiedTime": "2018-07-15T19:56:46.000Z",
-      "accessTime": "2018-07-15T22:27:50.000Z",
-      "changeTime": "2018-07-15T19:56:46.000Z",
-      "birthTime": "2018-07-15T19:56:46.000Z",
-      "root": "/",
-      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
-      "base": "2015-05-28-hi-folks",
-      "ext": "",
-      "name": "2015-05-28-hi-folks",
-      "relativeDirectory": "",
-      "dev": 16777219,
-      "mode": 16877,
-      "nlink": 3,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55434988,
-      "blocks": 0,
-      "atimeMs": 1531693670000,
-      "mtimeMs": 1531684606000,
-      "ctimeMs": 1531684606000,
-      "birthtimeMs": 1531684606000,
-      "atime": "2018-07-15T22:27:50.000Z",
-      "mtime": "2018-07-15T19:56:46.000Z",
-      "ctime": "2018-07-15T19:56:46.000Z",
       "birthtime": "2018-07-15T19:56:46.000Z"
     },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx absPath of file": {
@@ -1664,7 +1535,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "15893ae0373a794b308f020e730965f2",
+        "contentDigest": "9153ac857c65d2255e316f125bb6c3bd",
         "mediaType": "text/jsx",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1673,11 +1544,11 @@
       "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
       "relativePath": "index.jsx",
       "extension": "jsx",
-      "size": 1697,
-      "prettySize": "1.7 kB",
-      "modifiedTime": "2018-07-15T21:43:36.000Z",
-      "accessTime": "2018-07-15T22:02:45.000Z",
-      "changeTime": "2018-07-15T21:43:36.000Z",
+      "size": 1685,
+      "prettySize": "1.69 kB",
+      "modifiedTime": "2018-07-27T00:35:43.000Z",
+      "accessTime": "2018-07-27T00:35:43.000Z",
+      "changeTime": "2018-07-27T00:35:43.000Z",
       "birthTime": "2018-07-15T19:56:46.000Z",
       "root": "/",
       "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
@@ -1694,13 +1565,13 @@
       "blksize": 4096,
       "ino": 55434991,
       "blocks": 8,
-      "atimeMs": 1531692165000,
-      "mtimeMs": 1531691016000,
-      "ctimeMs": 1531691016000,
+      "atimeMs": 1532651743000,
+      "mtimeMs": 1532651743000,
+      "ctimeMs": 1532651743000,
       "birthtimeMs": 1531684606000,
-      "atime": "2018-07-15T22:02:45.000Z",
-      "mtime": "2018-07-15T21:43:36.000Z",
-      "ctime": "2018-07-15T21:43:36.000Z",
+      "atime": "2018-07-27T00:35:43.000Z",
+      "mtime": "2018-07-27T00:35:43.000Z",
+      "ctime": "2018-07-27T00:35:43.000Z",
       "birthtime": "2018-07-15T19:56:46.000Z"
     },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx absPath of file": {
@@ -1747,260 +1618,6 @@
       "ctime": "2018-07-15T22:14:53.000Z",
       "birthtime": "2018-07-15T19:56:46.000Z"
     },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file",
-      "children": [
-        "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "72293c460c59ab906d3e224a7a2c9ebb",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md",
-      "relativePath": "2015-05-01-hello-world/index.md",
-      "extension": "md",
-      "size": 866,
-      "prettySize": "866 B",
-      "modifiedTime": "2018-07-15T19:56:46.000Z",
-      "accessTime": "2018-07-15T21:49:10.000Z",
-      "changeTime": "2018-07-15T19:56:46.000Z",
-      "birthTime": "2018-07-15T19:56:46.000Z",
-      "root": "/",
-      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "2015-05-01-hello-world",
-      "dev": 16777219,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55434984,
-      "blocks": 8,
-      "atimeMs": 1531691350000,
-      "mtimeMs": 1531684606000,
-      "ctimeMs": 1531684606000,
-      "birthtimeMs": 1531684606000,
-      "atime": "2018-07-15T21:49:10.000Z",
-      "mtime": "2018-07-15T19:56:46.000Z",
-      "ctime": "2018-07-15T19:56:46.000Z",
-      "birthtime": "2018-07-15T19:56:46.000Z"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file",
-      "children": [
-        "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "fef193964fc7c139bea1d17dad270f09",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md",
-      "relativePath": "2015-05-06-my-second-post/index.md",
-      "extension": "md",
-      "size": 403,
-      "prettySize": "403 B",
-      "modifiedTime": "2018-07-15T19:56:46.000Z",
-      "accessTime": "2018-07-15T21:49:10.000Z",
-      "changeTime": "2018-07-15T19:56:46.000Z",
-      "birthTime": "2018-07-15T19:56:46.000Z",
-      "root": "/",
-      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "2015-05-06-my-second-post",
-      "dev": 16777219,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55434986,
-      "blocks": 8,
-      "atimeMs": 1531691350000,
-      "mtimeMs": 1531684606000,
-      "ctimeMs": 1531684606000,
-      "birthtimeMs": 1531684606000,
-      "atime": "2018-07-15T21:49:10.000Z",
-      "mtime": "2018-07-15T19:56:46.000Z",
-      "ctime": "2018-07-15T19:56:46.000Z",
-      "birthtime": "2018-07-15T19:56:46.000Z"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file",
-      "children": [
-        "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "02e333427bb8c7b38214ad21a4a27e26",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md",
-      "relativePath": "2015-05-28-hi-folks/index.md",
-      "extension": "md",
-      "size": 5495,
-      "prettySize": "5.5 kB",
-      "modifiedTime": "2018-07-15T19:56:46.000Z",
-      "accessTime": "2018-07-15T21:49:10.000Z",
-      "changeTime": "2018-07-15T19:56:46.000Z",
-      "birthTime": "2018-07-15T19:56:46.000Z",
-      "root": "/",
-      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "2015-05-28-hi-folks",
-      "dev": 16777219,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55434989,
-      "blocks": 16,
-      "atimeMs": 1531691350000,
-      "mtimeMs": 1531684606000,
-      "ctimeMs": 1531684606000,
-      "birthtimeMs": 1531684606000,
-      "atime": "2018-07-15T21:49:10.000Z",
-      "mtime": "2018-07-15T19:56:46.000Z",
-      "ctime": "2018-07-15T19:56:46.000Z",
-      "birthtime": "2018-07-15T19:56:46.000Z"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: Hello World\ndate: \"2015-05-01T22:12:03.284Z\"\npath: \"/hello-world/\"\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
-        "contentDigest": "dc31178611ff7999fd54c12b1b59130f",
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Hello World",
-        "date": "2015-05-01T22:12:03.284Z",
-        "path": "/hello-world/",
-        "_PARENT": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file",
-        "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: My Second Post!\ndate: \"2015-05-06T23:46:37.121Z\"\npath: \"/my-second-post/\"\n---\n\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from chicken eggs, though the taste and texture will be somewhat different, and the egg yolk will be less rich.\"? ([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
-        "contentDigest": "2779585c6a896d62b199d900c3f581f5",
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "My Second Post!",
-        "date": "2015-05-06T23:46:37.121Z",
-        "path": "/my-second-post/",
-        "_PARENT": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file",
-        "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: New Beginnings\ndate: \"2015-05-28T22:40:32.169Z\"\npath: \"/hi-folks/\"\n---\n\nFar far away, behind the word mountains, far from the countries Vokalia\nand Consonantia, there live the blind texts. Separated they live in\nBookmarksgrove right at the coast of the Semantics, a large language\nocean. A small river named Duden flows by their place and supplies it\nwith the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of\nbad Commas, wild Question Marks and devious Semikoli, but the Little\nBlind Text didn’t listen. She packed her seven versalia, put her initial\ninto the belt and made herself on the way.\n\n*   This however showed weasel\n*   Well uncritical so misled\n    *   this is very interesting\n*   Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she\nhad a last view back on the skyline of her\nhometown _Bookmarksgrove_, the headline of [Alphabet\nVillage](http://google.com) and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith [Longe and Parole](http://google.com) and dragged her into\ntheir agency, where they abused her for their projects again and\nagain. And if she hasn’t been rewritten, then they are still using\nher.\n\n> Far far away, behind the word mountains, far from the countries\n> Vokalia and Consonantia, there live the blind texts. Separated\n> they live in Bookmarksgrove right at the coast of the Semantics, a\n> large language ocean. \n\nIt is a paradisematic country, in which roasted parts of sentences\nfly into your mouth. Even the all-powerful Pointing has no control\nabout the blind texts it is an almost unorthographic life One day\nhowever a small line of blind text by the name of Lorem Ipsum\ndecided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands\nof bad Commas, wild Question Marks and devious Semikoli, but the\nLittle Blind Text didn’t listen. She packed her seven versalia, put\nher initial into the belt and made herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the\nheadline of Alphabet Village and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n> The copy warned the Little Blind Text, that where it came from it\n> would have been rewritten a thousand times and everything that was\n> left from its origin would be the word \"and\" and the Little Blind\n> Text should turn around and return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they\nabused her for their projects again and again. And if she hasn’t\nbeen rewritten, then they are still using her. Far far away, behind\nthe word mountains, far from the countries Vokalia and Consonantia,\nthere live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the\nSemantics, a large language ocean. A small river named Duden flows\nby their place and supplies it with the necessary regelialia. It is\na paradisematic country, in which roasted parts of sentences fly\ninto your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts\nit is an almost unorthographic life One day however a small line of\nblind text by the name of Lorem Ipsum decided to leave for the far\nWorld of Grammar. The Big Oxmox advised her not to do so, because\nthere were thousands of bad Commas, wild Question Marks and devious\nSemikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and\nmade herself on the way. When she reached the first hills of the\nItalic Mountains, she had a last view back on the skyline of her\nhometown Bookmarksgrove, the headline of Alphabet Village and the\nsubline of her own road, the Line Lane. Pityful a rethoric question\nran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it\nwould have been rewritten a thousand times and everything that was\nleft from its origin would be the word \"and\" and the Little Blind\nText should turn around and return to its own, safe country. But\nnothing the copy said could convince her and so it didn’t take long\nuntil a few insidious Copy Writers ambushed her, made her drunk with\nLonge and Parole and dragged her into their agency, where they\nabused her for their projects again and again.\n",
-        "contentDigest": "58a23077592a4e77674bd35dafeb56db",
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "New Beginnings",
-        "date": "2015-05-28T22:40:32.169Z",
-        "path": "/hi-folks/",
-        "_PARENT": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file",
-        "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file",
-      "children": [
-        "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg",
-      "relativePath": "2015-05-01-hello-world/salty_egg.jpg",
-      "extension": "jpg",
-      "size": 684322,
-      "prettySize": "684 kB",
-      "modifiedTime": "2018-07-15T19:56:46.000Z",
-      "accessTime": "2018-07-15T21:49:10.000Z",
-      "changeTime": "2018-07-15T19:56:46.000Z",
-      "birthTime": "2018-07-15T19:56:46.000Z",
-      "root": "/",
-      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world",
-      "base": "salty_egg.jpg",
-      "ext": ".jpg",
-      "name": "salty_egg",
-      "relativeDirectory": "2015-05-01-hello-world",
-      "dev": 16777219,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55434987,
-      "blocks": 1344,
-      "atimeMs": 1531691350000,
-      "mtimeMs": 1531684606000,
-      "ctimeMs": 1531684606000,
-      "birthtimeMs": 1531684606000,
-      "atime": "2018-07-15T21:49:10.000Z",
-      "mtime": "2018-07-15T19:56:46.000Z",
-      "ctime": "2018-07-15T19:56:46.000Z",
-      "birthtime": "2018-07-15T19:56:46.000Z"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file",
-      "internal": {
-        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "SitePage /hello-world/": {
       "layout": "index",
       "jsonName": "hello-world.json",
@@ -2011,7 +1628,7 @@
       "context": {
         "path": "/hello-world/"
       },
-      "updatedAt": 1531693670278,
+      "updatedAt": 1532651860007,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
@@ -2020,7 +1637,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "62e16fb665f0105bb112848dccfed561",
+        "contentDigest": "7d18168ef9c68d56b3342c5286b3f371",
         "owner": "internal-data-bridge"
       }
     },
@@ -2034,7 +1651,7 @@
       "context": {
         "path": "/my-second-post/"
       },
-      "updatedAt": 1531693670278,
+      "updatedAt": 1532651744092,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
@@ -2043,7 +1660,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9009021d3112cce7a5455545ff485d20",
+        "contentDigest": "7d56728164bcd475373c4ef9823c1915",
         "owner": "internal-data-bridge"
       }
     },
@@ -2057,7 +1674,7 @@
       "context": {
         "path": "/hi-folks/"
       },
-      "updatedAt": 1531693670279,
+      "updatedAt": 1532651744092,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
@@ -2066,7 +1683,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ec30e5afe9ca626f2a808433a97640f4",
+        "contentDigest": "e761ecca750fe54c5a9b7429095e51b5",
         "owner": "internal-data-bridge"
       }
     },
@@ -2078,7 +1695,7 @@
       "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx",
       "componentChunkName": "component---src-pages-about-jsx",
       "context": {},
-      "updatedAt": 1531693670288,
+      "updatedAt": 1532650952649,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx",
@@ -2087,7 +1704,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7e306cfb85a9d3001b5a594129a89514",
+        "contentDigest": "7df19c2d384288dd3eee57ecdc94fe54",
         "owner": "internal-data-bridge"
       }
     },
@@ -2099,7 +1716,7 @@
       "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
       "componentChunkName": "component---src-pages-index-jsx",
       "context": {},
-      "updatedAt": 1531693670288,
+      "updatedAt": 1532650952649,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
@@ -2108,7 +1725,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "08e9d0c94400aa34e247230e581f3dea",
+        "contentDigest": "bd443a433ffac5ba5fe4441ab161d6bf",
         "owner": "internal-data-bridge"
       }
     },
@@ -2120,7 +1737,7 @@
       "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx",
       "componentChunkName": "component---src-pages-posts-jsx",
       "context": {},
-      "updatedAt": 1531693670289,
+      "updatedAt": 1532650952650,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx",
@@ -2129,9 +1746,285 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c7c8750af625f21fcf6617013628b413",
+        "contentDigest": "76a450b8a0c143010e62fc3067a4c613",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /welcome/": {
+      "layout": "index",
+      "jsonName": "welcome.json",
+      "internalComponentName": "ComponentWelcome",
+      "path": "/welcome/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "componentChunkName": "component---src-templates-blog-post-jsx",
+      "context": {
+        "path": "/welcome/"
+      },
+      "updatedAt": 1532651877317,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "id": "SitePage /welcome/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "687ca4d002e75e4909f251aa7946d7ec",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /2018-07-26/welcome/": {
+      "layout": "index",
+      "jsonName": "2018-07-26-welcome.json",
+      "internalComponentName": "Component20180726Welcome",
+      "path": "/2018-07-26/welcome/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "componentChunkName": "component---src-templates-blog-post-jsx",
+      "context": {
+        "path": "/2018-07-26/welcome/"
+      },
+      "updatedAt": 1532652870496,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "id": "SitePage /2018-07-26/welcome/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "149fbf0d72e935ca31b5c606beb9f884",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7c4361c9e30005ed0f731ec00f69aa3e",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome",
+      "relativePath": "2018-07-26-welcome",
+      "extension": "",
+      "size": 136,
+      "prettySize": "136 B",
+      "modifiedTime": "2018-07-15T19:56:46.000Z",
+      "accessTime": "2018-07-27T00:39:43.000Z",
+      "changeTime": "2018-07-15T19:56:46.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "base": "2018-07-26-welcome",
+      "ext": "",
+      "name": "2018-07-26-welcome",
+      "relativeDirectory": "",
+      "dev": 16777219,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434983,
+      "blocks": 0,
+      "atimeMs": 1532651983000,
+      "mtimeMs": 1531684606000,
+      "ctimeMs": 1531684606000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-27T00:39:43.000Z",
+      "mtime": "2018-07-15T19:56:46.000Z",
+      "ctime": "2018-07-15T19:56:46.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file",
+      "children": [
+        "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "29cc742de4ac0f1c1dfc434dd2c29cc9",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md",
+      "relativePath": "2018-07-26-welcome/index.md",
+      "extension": "md",
+      "size": 205,
+      "prettySize": "205 B",
+      "modifiedTime": "2018-07-27T00:39:14.000Z",
+      "accessTime": "2018-07-27T00:39:43.000Z",
+      "changeTime": "2018-07-27T00:39:14.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-07-26-welcome",
+      "dev": 16777219,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434984,
+      "blocks": 8,
+      "atimeMs": 1532651983000,
+      "mtimeMs": 1532651954000,
+      "ctimeMs": 1532651954000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-27T00:39:43.000Z",
+      "mtime": "2018-07-27T00:39:14.000Z",
+      "ctime": "2018-07-27T00:39:14.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Welcome\ndate: \"2018-07-26\"\npath: \"/2018-07-26/welcome/\"\n---\n\nHi everyone!\n\nThis is a super new site and I am working on some great posts to share.\n\nI can't wait to add more content to the site!\n",
+        "contentDigest": "9d68252c5c1432cd0a7d5ee90564cefe",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Welcome",
+        "date": "2018-07-26",
+        "path": "/2018-07-26/welcome/",
+        "_PARENT": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file",
+        "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/salty_egg.jpg absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/salty_egg.jpg absPath of file",
+      "children": [
+        "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/salty_egg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/salty_egg.jpg",
+      "relativePath": "2018-07-26-welcome/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2018-07-15T19:56:46.000Z",
+      "accessTime": "2018-07-27T00:39:43.000Z",
+      "changeTime": "2018-07-15T19:56:46.000Z",
+      "birthTime": "2018-07-15T19:56:46.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "2018-07-26-welcome",
+      "dev": 16777219,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55434987,
+      "blocks": 1344,
+      "atimeMs": 1532651983000,
+      "mtimeMs": 1531684606000,
+      "ctimeMs": 1531684606000,
+      "birthtimeMs": 1531684606000,
+      "atime": "2018-07-27T00:39:43.000Z",
+      "mtime": "2018-07-15T19:56:46.000Z",
+      "ctime": "2018-07-15T19:56:46.000Z",
+      "birthtime": "2018-07-15T19:56:46.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/salty_egg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/salty_egg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/salty_egg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /resume/": {
+      "layout": "index",
+      "jsonName": "resume.json",
+      "internalComponentName": "ComponentResume",
+      "path": "/resume/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx",
+      "componentChunkName": "component---src-pages-resume-jsx",
+      "context": {},
+      "updatedAt": 1532652005153,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx",
+      "id": "SitePage /resume/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "587a158b335bfb89bb1aac34e7228c8a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4c69de19f8b7150b4f48e20b154dcd34",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx",
+      "relativePath": "resume.jsx",
+      "extension": "jsx",
+      "size": 7514,
+      "prettySize": "7.51 kB",
+      "modifiedTime": "2018-07-27T00:54:30.000Z",
+      "accessTime": "2018-07-27T00:54:30.000Z",
+      "changeTime": "2018-07-27T00:54:30.000Z",
+      "birthTime": "2018-07-27T00:40:05.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "base": "resume.jsx",
+      "ext": ".jsx",
+      "name": "resume",
+      "relativeDirectory": "",
+      "dev": 16777219,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55651173,
+      "blocks": 16,
+      "atimeMs": 1532652870000,
+      "mtimeMs": 1532652870000,
+      "ctimeMs": 1532652870000,
+      "birthtimeMs": 1532652005000,
+      "atime": "2018-07-27T00:54:30.000Z",
+      "mtime": "2018-07-27T00:54:30.000Z",
+      "ctime": "2018-07-27T00:54:30.000Z",
+      "birthtime": "2018-07-27T00:40:05.000Z"
     }
   },
   "status": {
@@ -2146,16 +2039,10 @@
         "/hi-folks/",
         "/about/",
         "/",
-        "/posts/"
-      ],
-      "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark": [
-        "/my-second-post/"
-      ],
-      "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark": [
-        "/hello-world/"
-      ],
-      "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark": [
-        "/hi-folks/"
+        "/posts/",
+        "/welcome/",
+        "/2018-07-26/welcome/",
+        "/resume/"
       ]
     },
     "connections": {
@@ -2165,7 +2052,8 @@
       "MarkdownRemark": [
         "/about/",
         "/",
-        "/posts/"
+        "/posts/",
+        "/resume/"
       ]
     }
   }

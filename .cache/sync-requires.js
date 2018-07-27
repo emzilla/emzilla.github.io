@@ -11,7 +11,8 @@ exports.components = {
   "component---src-templates-blog-post-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx")),
   "component---src-pages-about-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx")),
   "component---src-pages-index-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx")),
-  "component---src-pages-posts-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx"))
+  "component---src-pages-posts-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx")),
+  "component---src-pages-resume-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx"))
 }
 
 exports.json = {
@@ -28,5 +29,11 @@ exports.json = {
   "layout-index.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
   "index.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/index.json"),
   "layout-index.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
-  "posts.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/posts.json")
+  "posts.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/posts.json"),
+  "layout-index.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
+  "welcome.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/welcome.json"),
+  "layout-index.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
+  "2018-07-26-welcome.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/2018-07-26-welcome.json"),
+  "layout-index.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
+  "resume.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/resume.json")
 }

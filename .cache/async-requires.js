@@ -6,7 +6,8 @@ exports.components = {
   "component---src-templates-blog-post-jsx": require("gatsby-module-loader?name=component---src-templates-blog-post-jsx!/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx"),
   "component---src-pages-about-jsx": require("gatsby-module-loader?name=component---src-pages-about-jsx!/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx"),
   "component---src-pages-index-jsx": require("gatsby-module-loader?name=component---src-pages-index-jsx!/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx"),
-  "component---src-pages-posts-jsx": require("gatsby-module-loader?name=component---src-pages-posts-jsx!/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx")
+  "component---src-pages-posts-jsx": require("gatsby-module-loader?name=component---src-pages-posts-jsx!/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx"),
+  "component---src-pages-resume-jsx": require("gatsby-module-loader?name=component---src-pages-resume-jsx!/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx")
 }
 
 exports.json = {
@@ -23,7 +24,13 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/index.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
-  "posts.json": require("gatsby-module-loader?name=path---posts!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/posts.json")
+  "posts.json": require("gatsby-module-loader?name=path---posts!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/posts.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
+  "welcome.json": require("gatsby-module-loader?name=path---welcome!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/welcome.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
+  "2018-07-26-welcome.json": require("gatsby-module-loader?name=path---2018-07-26-welcome!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/2018-07-26-welcome.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
+  "resume.json": require("gatsby-module-loader?name=path---resume!/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/resume.json")
 }
 
 exports.layouts = {

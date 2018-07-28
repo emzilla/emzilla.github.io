@@ -1,2 +1,0 @@
-webpackJsonp([0x802d931d3bc0],{399:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Emily Davidson"}},allMarkdownRemark:{edges:[{node:{excerpt:"Hi everyone! This is a super new site and I am working on some great posts to share. I can’t wait to add more content to the site!",frontmatter:{path:"/2018-07-26/welcome/",date:"26 July, 2018",title:"Welcome"}}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---posts-22abcac13a19e596ce10.js.map

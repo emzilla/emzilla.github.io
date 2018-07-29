@@ -1,31 +1,17 @@
 [
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
+        "jsonName": "offline-plugin-app-shell-fallback.json",
+        "path": "/offline-plugin-app-shell-fallback/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "hello-world.json",
-        "path": "/hello-world/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-jsx",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "my-second-post.json",
-        "path": "/my-second-post/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-jsx",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "hi-folks.json",
-        "path": "/hi-folks/"
+        "jsonName": "2018-07-26-welcome.json",
+        "path": "/2018-07-26/welcome/"
     },
     {
         "componentChunkName": "component---src-pages-about-jsx",
@@ -47,20 +33,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "posts.json",
         "path": "/posts/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-jsx",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "welcome.json",
-        "path": "/welcome/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-jsx",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "2018-07-26-welcome.json",
-        "path": "/2018-07-26/welcome/"
     },
     {
         "componentChunkName": "component---src-pages-resume-jsx",

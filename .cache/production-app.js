@@ -1,5 +1,5 @@
 if (__POLYFILL__) {
-  require(`core-js/modules/es6.promise`)
+  require(`core-js/fn/promise`)
 }
 import { apiRunner, apiRunnerAsync } from "./api-runner-browser"
 import React, { createElement } from "react"
@@ -7,6 +7,7 @@ import ReactDOM from "react-dom"
 import { Router, Route, withRouter, matchPath } from "react-router-dom"
 import { ScrollContext } from "gatsby-react-router-scroll"
 import domReady from "domready"
+import { createLocation } from "history"
 import history from "./history"
 window.___history = history
 import emitter from "./emitter"
@@ -50,7 +51,9 @@ apiRunnerAsync(`onClientEntry`).then(() => {
     require(`./register-service-worker`)
   }
 
-  const navigateTo = pathname => {
+  const navigate = (to, replace) => {
+    const location = createLocation(to, null, null, history.location)
+    let { pathname } = location
     const redirect = redirectMap[pathname]
 
     // If we're redirecting, just replace the passed in pathname
@@ -58,11 +61,20 @@ apiRunnerAsync(`onClientEntry`).then(() => {
     if (redirect) {
       pathname = redirect.toPath
     }
+    const wl = window.location
 
-    // If we're already at this path, do nothing.
-    if (window.location.pathname === pathname) {
+    // If we're already at this location, do nothing.
+    if (
+      wl.pathname === location.pathname &&
+      wl.search === location.search &&
+      wl.hash === location.hash
+    ) {
       return
     }
+
+    const historyNavigateFunc = replace
+      ? window.___history.replace
+      : window.___history.push
 
     // Listen to loading events. If page resources load before
     // a second, navigate immediately.
@@ -70,7 +82,7 @@ apiRunnerAsync(`onClientEntry`).then(() => {
       if (e.page.path === loader.getPage(pathname).path) {
         emitter.off(`onPostLoadPageResources`, eventHandler)
         clearTimeout(timeoutId)
-        window.___history.push(pathname)
+        historyNavigateFunc(location)
       }
     }
 
@@ -79,13 +91,13 @@ apiRunnerAsync(`onClientEntry`).then(() => {
     const timeoutId = setTimeout(() => {
       emitter.off(`onPostLoadPageResources`, eventHandler)
       emitter.emit(`onDelayedLoadPageResources`, { pathname })
-      window.___history.push(pathname)
+      historyNavigateFunc(location)
     }, 1000)
 
     if (loader.getResourcesForPathname(pathname)) {
       // The resources are already loaded so off we go.
       clearTimeout(timeoutId)
-      window.___history.push(pathname)
+      historyNavigateFunc(location)
     } else {
       // They're not loaded yet so let's add a listener for when
       // they finish loading.
@@ -94,7 +106,9 @@ apiRunnerAsync(`onClientEntry`).then(() => {
   }
 
   // window.___loadScriptsForPath = loadScriptsForPath
-  window.___navigateTo = navigateTo
+  window.___push = (to) => navigate(to, false)
+  window.___replace = (to) => navigate(to, true)
+  window.___navigateTo = window.___push
 
   // Call onRouteUpdate on the initial page load.
   apiRunner(`onRouteUpdate`, {
@@ -110,7 +124,10 @@ apiRunnerAsync(`onClientEntry`).then(() => {
 
       history.listen((location, action) => {
         if (!maybeRedirect(location.pathname)) {
-          apiRunner(`onRouteUpdate`, { location, action })
+          // Make sure React has had a chance to flush to DOM first.
+          setTimeout(() => {
+            apiRunner(`onRouteUpdate`, { location, action })
+          }, 0)
         }
       })
     }
@@ -126,7 +143,9 @@ apiRunnerAsync(`onClientEntry`).then(() => {
     }
 
     if (prevRouterProps) {
-      const { location: { pathname: oldPathname } } = prevRouterProps
+      const {
+        location: { pathname: oldPathname },
+      } = prevRouterProps
       if (oldPathname === pathname) {
         return false
       }
@@ -175,8 +194,15 @@ apiRunnerAsync(`onClientEntry`).then(() => {
       )
 
     const NewRoot = apiRunner(`wrapRootComponent`, { Root }, Root)[0]
+
+    const renderer = apiRunner(
+      `replaceHydrateFunction`,
+      undefined,
+      ReactDOM.render
+    )[0]
+
     domReady(() =>
-      ReactDOM.render(
+      renderer(
         <NewRoot />,
         typeof window !== `undefined`
           ? document.getElementById(`___gatsby`)

@@ -1,25 +1,33 @@
 var plugins = [{
-      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js'),
+      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-typography/gatsby-ssr.js'),
+      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
-//   require('/path/to/plugin1/gatsby-ssr.js'),
-//   require('/path/to/plugin2/gatsby-ssr.js'),
+//   {
+//     plugin: require("/path/to/plugin1/gatsby-ssr.js"),
+//     options: { ... },
+//   },
+//   {
+//     plugin: require("/path/to/plugin2/gatsby-ssr.js"),
+//     options: { ... },
+//   },
 // ]
 
 const apis = require(`./api-ssr-docs`)
 
+// Run the specified API in any plugins that have implemented it
 module.exports = (api, args, defaultReturn) => {
   if (!apis[api]) {
     console.log(`This API doesn't exist`, api)
   }
+
   // Run each plugin in series.
   let results = plugins.map(plugin => {
     if (plugin.plugin[api]) {

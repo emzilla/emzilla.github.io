@@ -1,18 +1,24 @@
 var plugins = [{
-      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
+      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-browser'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-offline/gatsby-browser.js'),
+      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-offline/gatsby-browser'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-typography/gatsby-browser.js'),
+      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-typography/gatsby-browser'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks
 // basically like:
 // var plugins = [
-//   require('/path/to/plugin1/gatsby-browser.js'),
-//   require('/path/to/plugin2/gatsby-browser.js'),
+//   {
+//     plugin: require("/path/to/plugin1/gatsby-browser.js"),
+//     options: { ... },
+//   },
+//   {
+//     plugin: require("/path/to/plugin2/gatsby-browser.js"),
+//     options: { ... },
+//   },
 // ]
 
 export function apiRunner(api, args, defaultReturn) {

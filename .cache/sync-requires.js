@@ -7,8 +7,8 @@ exports.layouts = {
 }
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-offline/app-shell.js")),
   "component---src-templates-blog-post-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx")),
+  "component---cache-dev-404-page-js": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/dev-404-page.js")),
   "component---src-pages-about-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx")),
   "component---src-pages-index-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx")),
   "component---src-pages-posts-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx")),
@@ -17,8 +17,8 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/layout-index.json"),
-  "offline-plugin-app-shell-fallback.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/offline-plugin-app-shell-fallback.json"),
   "2018-07-26-welcome.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/2018-07-26-welcome.json"),
+  "dev-404-page.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/dev-404-page.json"),
   "about.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/about.json"),
   "index.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/index.json"),
   "posts.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/posts.json"),

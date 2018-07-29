@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import { Logo, Menu } from '../components/'
 
@@ -8,9 +9,10 @@ class AppLayout extends React.Component {
     let header
     return (
       <div>
+        <Helmet link={[{ rel: 'shortcut icon', type: 'image/png', href: '../../favicon.ico' }]} />
         {header}
         <Logo>
-          <Link to='/'>const home = &#40;link&#41; => emzil.la</Link>
+          <Link to='/'>const home = &#40;&#41; => emzil.la</Link>
         </Logo>
         <Menu
           links={[

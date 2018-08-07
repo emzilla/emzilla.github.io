@@ -1,4 +1,3 @@
-// http://kyleamathews.github.io/typography.js/
 import Typography from 'typography'
 
 const typography = new Typography({

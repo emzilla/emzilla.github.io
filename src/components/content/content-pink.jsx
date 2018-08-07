@@ -11,7 +11,7 @@ const ContentPink = Content.extend`
   }
 
   &:after {
-    background: ${theme.primaryColorTransparent};
+    background: ${theme.accentGradientTransparent};
     content: '';
     height: 100%;
     position: absolute;
@@ -22,7 +22,6 @@ const ContentPink = Content.extend`
 
     @media (min-width: 50rem) {
       width: 75%;
-      right: 5%;
       top: 5%;
     }
   }

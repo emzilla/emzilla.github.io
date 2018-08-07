@@ -6,6 +6,8 @@ const theme = {
   secondaryColor: '#eaf4f1',
   accentColor: '#ef2335',
   accentGradient: 'linear-gradient(-45deg, #23cd9b, #fac305)',
+  accentGradientTransparent:
+    'linear-gradient(45deg, rgba(250, 195, 5, .1), rgba(35, 205, 155, 0.1))',
   reverseGradient: 'linear-gradient(45deg, #23cd9b, #fac305)',
   fontColor: '#212927',
   fontColorInverse: '#fff',

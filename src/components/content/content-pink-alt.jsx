@@ -23,13 +23,13 @@ const ContentPinkAlt = Content.extend`
   }
 
   &:after {
-    background: ${theme.primaryColorTransparent};
-    bottom: 5%;
+    background: ${theme.accentGradientTransparent};
+    bottom: 0;
     content: '';
     height: 100%;
     position: absolute;
-    left: -2%;
-    top: 2%;
+    left: 0;
+    top: 0;
     width: 100%;
     z-index: -1;
   }

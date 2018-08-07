@@ -19,6 +19,7 @@ class AppLayout extends React.Component {
             { path: '/about', name: 'about' },
             { path: '/posts', name: 'posts' },
             { path: '/resume', name: 'resume' },
+            { path: '/contact', name: 'contact' },
           ]}
         />
         {children()}

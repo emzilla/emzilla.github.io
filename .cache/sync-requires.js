@@ -12,7 +12,8 @@ exports.components = {
   "component---src-pages-about-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx")),
   "component---src-pages-index-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx")),
   "component---src-pages-posts-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx")),
-  "component---src-pages-resume-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx"))
+  "component---src-pages-resume-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx")),
+  "component---src-pages-contact-jsx": preferDefault(require("/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx"))
 }
 
 exports.json = {
@@ -22,5 +23,6 @@ exports.json = {
   "about.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/about.json"),
   "index.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/index.json"),
   "posts.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/posts.json"),
-  "resume.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/resume.json")
+  "resume.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/resume.json"),
+  "contact.json": require("/Users/emilydavidson/Sites/emzilla.github.io/.cache/json/contact.json")
 }

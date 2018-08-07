@@ -40,5 +40,12 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "resume.json",
         "path": "/resume/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "contact.json",
+        "path": "/contact/"
     }
 ]

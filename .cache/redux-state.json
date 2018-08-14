@@ -192,6 +192,71 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "22f41c8718b067c571206612c8a147df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-source-filesystem": {
       "resolve": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
@@ -1322,7 +1387,7 @@
       "resolve": "/Users/emilydavidson/Sites/emzilla.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "3797f508b7368f7da24377c847cc0ad0",
+      "version": "d60fe53805fff92b266829afee3ece1c",
       "pluginOptions": {
         "plugins": []
       },
@@ -1390,6 +1455,10 @@
           {
             "name": "gatsby-plugin-sharp",
             "version": "^1.6.2"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.0.11"
           },
           {
             "name": "gatsby-plugin-typography",
@@ -1481,7 +1550,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "48998a89f90aad2b933351f89dea097c",
+        "contentDigest": "e238a05bdbc056bed03f6e2c0fceb3ea",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1567,17 +1636,17 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Emily Davidson",
+        "title": "Emily Davidson - Front End Developer",
         "author": "Emily Davidson"
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-07T00:42:26.127Z",
+      "buildTime": "2018-08-14T02:54:10.921Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "91acd0864b5ab94ff425107378c849fb",
+        "contentDigest": "cff32e00da5ae194cd2053112f133a06",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1587,7 +1656,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ba630b1b4959f04072ad094e380f110a",
+        "contentDigest": "e90e48a76c96c7626b24f55a285db03c",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1598,9 +1667,9 @@
       "extension": "",
       "size": 272,
       "prettySize": "272 B",
-      "modifiedTime": "2018-08-07T00:16:40.000Z",
-      "accessTime": "2018-08-07T00:42:42.000Z",
-      "changeTime": "2018-08-07T00:16:40.000Z",
+      "modifiedTime": "2018-08-14T02:53:56.000Z",
+      "accessTime": "2018-08-14T02:54:28.000Z",
+      "changeTime": "2018-08-14T02:53:56.000Z",
       "birthTime": "2018-07-29T19:03:58.000Z",
       "root": "/",
       "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src",
@@ -1617,13 +1686,13 @@
       "blksize": 4096,
       "ino": 55920175,
       "blocks": 0,
-      "atimeMs": 1533602562000,
-      "mtimeMs": 1533601000000,
-      "ctimeMs": 1533601000000,
+      "atimeMs": 1534215268000,
+      "mtimeMs": 1534215236000,
+      "ctimeMs": 1534215236000,
       "birthtimeMs": 1532891038000,
-      "atime": "2018-08-07T00:42:42.000Z",
-      "mtime": "2018-08-07T00:16:40.000Z",
-      "ctime": "2018-08-07T00:16:40.000Z",
+      "atime": "2018-08-14T02:54:28.000Z",
+      "mtime": "2018-08-14T02:53:56.000Z",
+      "ctime": "2018-08-14T02:53:56.000Z",
       "birthtime": "2018-07-29T19:03:58.000Z"
     },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome absPath of file": {
@@ -1631,7 +1700,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f97e27d6fa13060f6e9fdfab67b4df9e",
+        "contentDigest": "7d3f3ad92a0b1a6877bc1ca20874b145",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-07-26-welcome\"",
         "owner": "gatsby-source-filesystem"
@@ -1643,7 +1712,7 @@
       "size": 136,
       "prettySize": "136 B",
       "modifiedTime": "2018-07-29T19:03:58.000Z",
-      "accessTime": "2018-08-07T00:42:42.000Z",
+      "accessTime": "2018-08-14T02:54:28.000Z",
       "changeTime": "2018-07-29T19:03:58.000Z",
       "birthTime": "2018-07-29T19:03:58.000Z",
       "root": "/",
@@ -1661,66 +1730,21 @@
       "blksize": 4096,
       "ino": 55920176,
       "blocks": 0,
-      "atimeMs": 1533602562000,
+      "atimeMs": 1534215268000,
       "mtimeMs": 1532891038000,
       "ctimeMs": 1532891038000,
       "birthtimeMs": 1532891038000,
-      "atime": "2018-08-07T00:42:42.000Z",
+      "atime": "2018-08-14T02:54:28.000Z",
       "mtime": "2018-07-29T19:03:58.000Z",
       "ctime": "2018-07-29T19:03:58.000Z",
       "birthtime": "2018-07-29T19:03:58.000Z"
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx absPath of file": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "9153ac857c65d2255e316f125bb6c3bd",
-        "mediaType": "text/jsx",
-        "type": "File",
-        "description": "File \"src/pages/index.jsx\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
-      "relativePath": "index.jsx",
-      "extension": "jsx",
-      "size": 1685,
-      "prettySize": "1.69 kB",
-      "modifiedTime": "2018-07-29T00:03:31.000Z",
-      "accessTime": "2018-07-29T00:03:31.000Z",
-      "changeTime": "2018-07-29T00:03:31.000Z",
-      "birthTime": "2018-07-29T00:03:31.000Z",
-      "root": "/",
-      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
-      "base": "index.jsx",
-      "ext": ".jsx",
-      "name": "index",
-      "relativeDirectory": "",
-      "dev": 16777219,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55841793,
-      "blocks": 8,
-      "atimeMs": 1532822611000,
-      "mtimeMs": 1532822611000,
-      "ctimeMs": 1532822611000,
-      "birthtimeMs": 1532822611000,
-      "atime": "2018-07-29T00:03:31.000Z",
-      "mtime": "2018-07-29T00:03:31.000Z",
-      "ctime": "2018-07-29T00:03:31.000Z",
-      "birthtime": "2018-07-29T00:03:31.000Z"
     },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx absPath of file": {
       "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "303065ad802d7081dedfa6548c362b7f",
+        "contentDigest": "7675c4ec5dfc472861fdeb2ad909974a",
         "mediaType": "text/jsx",
         "type": "File",
         "description": "File \"src/pages/about.jsx\"",
@@ -1730,12 +1754,12 @@
       "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx",
       "relativePath": "about.jsx",
       "extension": "jsx",
-      "size": 2645,
-      "prettySize": "2.65 kB",
-      "modifiedTime": "2018-08-06T23:58:59.000Z",
-      "accessTime": "2018-08-07T00:00:58.000Z",
-      "changeTime": "2018-08-06T23:58:59.000Z",
-      "birthTime": "2018-07-29T19:03:58.000Z",
+      "size": 2683,
+      "prettySize": "2.68 kB",
+      "modifiedTime": "2018-08-14T02:53:56.000Z",
+      "accessTime": "2018-08-14T02:54:23.000Z",
+      "changeTime": "2018-08-14T02:53:56.000Z",
+      "birthTime": "2018-08-14T02:53:56.000Z",
       "root": "/",
       "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
       "base": "about.jsx",
@@ -1749,23 +1773,113 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 55920179,
+      "ino": 56098708,
       "blocks": 8,
-      "atimeMs": 1533600058000,
-      "mtimeMs": 1533599939000,
-      "ctimeMs": 1533599939000,
-      "birthtimeMs": 1532891038000,
-      "atime": "2018-08-07T00:00:58.000Z",
-      "mtime": "2018-08-06T23:58:59.000Z",
-      "ctime": "2018-08-06T23:58:59.000Z",
-      "birthtime": "2018-07-29T19:03:58.000Z"
+      "atimeMs": 1534215263000,
+      "mtimeMs": 1534215236000,
+      "ctimeMs": 1534215236000,
+      "birthtimeMs": 1534215236000,
+      "atime": "2018-08-14T02:54:23.000Z",
+      "mtime": "2018-08-14T02:53:56.000Z",
+      "ctime": "2018-08-14T02:53:56.000Z",
+      "birthtime": "2018-08-14T02:53:56.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ce881afd3a101b9e68242a8eca4d4833",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "description": "File \"src/pages/contact.jsx\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx",
+      "relativePath": "contact.jsx",
+      "extension": "jsx",
+      "size": 1999,
+      "prettySize": "2 kB",
+      "modifiedTime": "2018-08-14T02:53:56.000Z",
+      "accessTime": "2018-08-14T02:54:23.000Z",
+      "changeTime": "2018-08-14T02:53:56.000Z",
+      "birthTime": "2018-08-14T02:53:56.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "base": "contact.jsx",
+      "ext": ".jsx",
+      "name": "contact",
+      "relativeDirectory": "",
+      "dev": 16777219,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 56098709,
+      "blocks": 8,
+      "atimeMs": 1534215263000,
+      "mtimeMs": 1534215236000,
+      "ctimeMs": 1534215236000,
+      "birthtimeMs": 1534215236000,
+      "atime": "2018-08-14T02:54:23.000Z",
+      "mtime": "2018-08-14T02:53:56.000Z",
+      "ctime": "2018-08-14T02:53:56.000Z",
+      "birthtime": "2018-08-14T02:53:56.000Z"
+    },
+    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx absPath of file": {
+      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2877979e92d25cf179816837b5555e92",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "description": "File \"src/pages/index.jsx\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
+      "relativePath": "index.jsx",
+      "extension": "jsx",
+      "size": 1722,
+      "prettySize": "1.72 kB",
+      "modifiedTime": "2018-08-14T02:53:56.000Z",
+      "accessTime": "2018-08-14T02:54:23.000Z",
+      "changeTime": "2018-08-14T02:53:56.000Z",
+      "birthTime": "2018-08-14T02:53:56.000Z",
+      "root": "/",
+      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
+      "base": "index.jsx",
+      "ext": ".jsx",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777219,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 56098710,
+      "blocks": 8,
+      "atimeMs": 1534215263000,
+      "mtimeMs": 1534215236000,
+      "ctimeMs": 1534215236000,
+      "birthtimeMs": 1534215236000,
+      "atime": "2018-08-14T02:54:23.000Z",
+      "mtime": "2018-08-14T02:53:56.000Z",
+      "ctime": "2018-08-14T02:53:56.000Z",
+      "birthtime": "2018-08-14T02:53:56.000Z"
     },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx absPath of file": {
       "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "fa8107c91dd11babce0acbc381d03201",
+        "contentDigest": "ee24b6ddd4a34b98f683ce1e1bb67efd",
         "mediaType": "text/jsx",
         "type": "File",
         "description": "File \"src/pages/posts.jsx\"",
@@ -1775,12 +1889,12 @@
       "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx",
       "relativePath": "posts.jsx",
       "extension": "jsx",
-      "size": 1729,
-      "prettySize": "1.73 kB",
-      "modifiedTime": "2018-07-28T23:33:58.000Z",
-      "accessTime": "2018-07-28T23:57:39.000Z",
-      "changeTime": "2018-07-28T23:33:58.000Z",
-      "birthTime": "2018-07-28T23:33:58.000Z",
+      "size": 1741,
+      "prettySize": "1.74 kB",
+      "modifiedTime": "2018-08-14T02:53:56.000Z",
+      "accessTime": "2018-08-14T02:54:23.000Z",
+      "changeTime": "2018-08-14T02:53:56.000Z",
+      "birthTime": "2018-08-14T02:53:56.000Z",
       "root": "/",
       "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
       "base": "posts.jsx",
@@ -1794,23 +1908,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 55794518,
+      "ino": 56098711,
       "blocks": 8,
-      "atimeMs": 1532822259000,
-      "mtimeMs": 1532820838000,
-      "ctimeMs": 1532820838000,
-      "birthtimeMs": 1532820838000,
-      "atime": "2018-07-28T23:57:39.000Z",
-      "mtime": "2018-07-28T23:33:58.000Z",
-      "ctime": "2018-07-28T23:33:58.000Z",
-      "birthtime": "2018-07-28T23:33:58.000Z"
+      "atimeMs": 1534215263000,
+      "mtimeMs": 1534215236000,
+      "ctimeMs": 1534215236000,
+      "birthtimeMs": 1534215236000,
+      "atime": "2018-08-14T02:54:23.000Z",
+      "mtime": "2018-08-14T02:53:56.000Z",
+      "ctime": "2018-08-14T02:53:56.000Z",
+      "birthtime": "2018-08-14T02:53:56.000Z"
     },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx absPath of file": {
       "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4c69de19f8b7150b4f48e20b154dcd34",
+        "contentDigest": "1418c45645439ec94127b16910828031",
         "mediaType": "text/jsx",
         "type": "File",
         "description": "File \"src/pages/resume.jsx\"",
@@ -1820,12 +1934,12 @@
       "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx",
       "relativePath": "resume.jsx",
       "extension": "jsx",
-      "size": 7514,
-      "prettySize": "7.51 kB",
-      "modifiedTime": "2018-07-29T00:03:31.000Z",
-      "accessTime": "2018-07-29T00:03:31.000Z",
-      "changeTime": "2018-07-29T00:03:31.000Z",
-      "birthTime": "2018-07-29T00:03:31.000Z",
+      "size": 6483,
+      "prettySize": "6.48 kB",
+      "modifiedTime": "2018-08-14T02:53:56.000Z",
+      "accessTime": "2018-08-14T02:54:23.000Z",
+      "changeTime": "2018-08-14T02:53:56.000Z",
+      "birthTime": "2018-08-14T02:53:56.000Z",
       "root": "/",
       "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
       "base": "resume.jsx",
@@ -1839,16 +1953,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 55841794,
+      "ino": 56098712,
       "blocks": 16,
-      "atimeMs": 1532822611000,
-      "mtimeMs": 1532822611000,
-      "ctimeMs": 1532822611000,
-      "birthtimeMs": 1532822611000,
-      "atime": "2018-07-29T00:03:31.000Z",
-      "mtime": "2018-07-29T00:03:31.000Z",
-      "ctime": "2018-07-29T00:03:31.000Z",
-      "birthtime": "2018-07-29T00:03:31.000Z"
+      "atimeMs": 1534215263000,
+      "mtimeMs": 1534215236000,
+      "ctimeMs": 1534215236000,
+      "birthtimeMs": 1534215236000,
+      "atime": "2018-08-14T02:54:23.000Z",
+      "mtime": "2018-08-14T02:53:56.000Z",
+      "ctime": "2018-08-14T02:53:56.000Z",
+      "birthtime": "2018-08-14T02:53:56.000Z"
     },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file": {
       "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file",
@@ -1869,10 +1983,10 @@
       "extension": "md",
       "size": 205,
       "prettySize": "205 B",
-      "modifiedTime": "2018-07-29T00:03:31.000Z",
-      "accessTime": "2018-07-29T00:03:31.000Z",
-      "changeTime": "2018-07-29T00:03:31.000Z",
-      "birthTime": "2018-07-29T00:03:31.000Z",
+      "modifiedTime": "2018-07-29T19:03:58.000Z",
+      "accessTime": "2018-08-14T01:31:38.000Z",
+      "changeTime": "2018-07-29T19:03:58.000Z",
+      "birthTime": "2018-07-29T19:03:58.000Z",
       "root": "/",
       "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome",
       "base": "index.md",
@@ -1886,16 +2000,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 55841792,
+      "ino": 55920177,
       "blocks": 8,
-      "atimeMs": 1532822611000,
-      "mtimeMs": 1532822611000,
-      "ctimeMs": 1532822611000,
-      "birthtimeMs": 1532822611000,
-      "atime": "2018-07-29T00:03:31.000Z",
-      "mtime": "2018-07-29T00:03:31.000Z",
-      "ctime": "2018-07-29T00:03:31.000Z",
-      "birthtime": "2018-07-29T00:03:31.000Z"
+      "atimeMs": 1534210298000,
+      "mtimeMs": 1532891038000,
+      "ctimeMs": 1532891038000,
+      "birthtimeMs": 1532891038000,
+      "atime": "2018-08-14T01:31:38.000Z",
+      "mtime": "2018-07-29T19:03:58.000Z",
+      "ctime": "2018-07-29T19:03:58.000Z",
+      "birthtime": "2018-07-29T19:03:58.000Z"
     },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file >>> MarkdownRemark",
@@ -1937,10 +2051,10 @@
       "extension": "jpg",
       "size": 684322,
       "prettySize": "684 kB",
-      "modifiedTime": "2018-07-29T00:03:31.000Z",
-      "accessTime": "2018-07-29T00:03:39.000Z",
-      "changeTime": "2018-07-29T00:03:31.000Z",
-      "birthTime": "2018-07-29T00:03:31.000Z",
+      "modifiedTime": "2018-07-29T19:03:58.000Z",
+      "accessTime": "2018-08-14T01:31:38.000Z",
+      "changeTime": "2018-07-29T19:03:58.000Z",
+      "birthTime": "2018-07-29T19:03:58.000Z",
       "root": "/",
       "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome",
       "base": "salty_egg.jpg",
@@ -1954,16 +2068,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 55841796,
+      "ino": 55920178,
       "blocks": 1344,
-      "atimeMs": 1532822619000,
-      "mtimeMs": 1532822611000,
-      "ctimeMs": 1532822611000,
-      "birthtimeMs": 1532822611000,
-      "atime": "2018-07-29T00:03:39.000Z",
-      "mtime": "2018-07-29T00:03:31.000Z",
-      "ctime": "2018-07-29T00:03:31.000Z",
-      "birthtime": "2018-07-29T00:03:31.000Z"
+      "atimeMs": 1534210298000,
+      "mtimeMs": 1532891038000,
+      "ctimeMs": 1532891038000,
+      "birthtimeMs": 1532891038000,
+      "atime": "2018-08-14T01:31:38.000Z",
+      "mtime": "2018-07-29T19:03:58.000Z",
+      "ctime": "2018-07-29T19:03:58.000Z",
+      "birthtime": "2018-07-29T19:03:58.000Z"
     },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/salty_egg.jpg absPath of file >> ImageSharp": {
       "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/salty_egg.jpg absPath of file >> ImageSharp",
@@ -1974,51 +2088,6 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
-    },
-    "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx absPath of file": {
-      "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "b0fb27daccb965df29c7274f4d80c109",
-        "mediaType": "text/jsx",
-        "type": "File",
-        "description": "File \"src/pages/contact.jsx\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx",
-      "relativePath": "contact.jsx",
-      "extension": "jsx",
-      "size": 2125,
-      "prettySize": "2.13 kB",
-      "modifiedTime": "2018-08-07T00:21:44.000Z",
-      "accessTime": "2018-08-07T00:21:44.000Z",
-      "changeTime": "2018-08-07T00:21:44.000Z",
-      "birthTime": "2018-08-07T00:16:40.000Z",
-      "root": "/",
-      "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
-      "base": "contact.jsx",
-      "ext": ".jsx",
-      "name": "contact",
-      "relativeDirectory": "",
-      "dev": 16777219,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 56016175,
-      "blocks": 8,
-      "atimeMs": 1533601304000,
-      "mtimeMs": 1533601304000,
-      "ctimeMs": 1533601304000,
-      "birthtimeMs": 1533601000000,
-      "atime": "2018-08-07T00:21:44.000Z",
-      "mtime": "2018-08-07T00:21:44.000Z",
-      "ctime": "2018-08-07T00:21:44.000Z",
-      "birthtime": "2018-08-07T00:16:40.000Z"
     },
     "SitePage /offline-plugin-app-shell-fallback/": {
       "layout": "index",
@@ -2036,7 +2105,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9527fc79dd07b0d9ec15067e242711a5",
+        "contentDigest": "d8cce1e19a9b74b50330da77c1c88345",
         "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
@@ -2059,7 +2128,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "564178452feff7f7bc5e96304bdf2f0f",
+        "contentDigest": "f9949b04e6f0b5e575c989f6830fc111",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2080,7 +2149,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c6ec53037af3b7f2e6ab91080478a19e",
+        "contentDigest": "92551c22aad36cade8f7e0babba6d29b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2101,7 +2170,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0e286c669ec60d17b92a6a5f680384b3",
+        "contentDigest": "eeb1e0cd2495c3cf607429c2fa0292f7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2122,7 +2191,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ecfb4166a9a14bac23eb855d6accba8e",
+        "contentDigest": "1df5c1621654f52f5be977a057a640a1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2143,7 +2212,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f8b6a6213782eac3ba1faea9f28401e7",
+        "contentDigest": "89a56549bec45fe82037596027043be2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2164,7 +2233,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "62861087974a7284d4eda0cdea86a85f",
+        "contentDigest": "d98c0864db5b44c598ecc8be8794c51f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2172,17 +2241,17 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "0ce06339baaccee82f91ccf22389472e"
+    "PLUGINS_HASH": "ad3aadc3cb5fe219dee765c56e2edc15"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "/2018-07-26/welcome/",
         "/about/",
+        "/contact/",
         "/",
         "/posts/",
-        "/resume/",
-        "/contact/"
+        "/resume/"
       ],
       "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome/index.md absPath of file >>> MarkdownRemark": [
         "/2018-07-26/welcome/"
@@ -2191,13 +2260,10 @@
     "connections": {
       "MarkdownRemark": [
         "/about/",
+        "/contact/",
         "/",
         "/posts/",
-        "/resume/",
-        "/contact/"
-      ],
-      "SitePage": [
-        "/dev-404-page/"
+        "/resume/"
       ]
     }
   }

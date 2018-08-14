@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[]},
     },{

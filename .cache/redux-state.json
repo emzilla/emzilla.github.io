@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/emilydavidson/Sites/emzilla.github.io/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5e7734724c84356a32b029a808e6ca3e",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1580,16 +1570,14 @@
         "title": "Emily Davidson",
         "author": "Emily Davidson"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-06T23:59:40.883Z",
+      "buildTime": "2018-08-07T00:42:26.127Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "597db3583310dc5e24bcd85a0d7d566d",
+        "contentDigest": "91acd0864b5ab94ff425107378c849fb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1599,7 +1587,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f9e378cab27405111fadb966ade2345b",
+        "contentDigest": "ba630b1b4959f04072ad094e380f110a",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1608,11 +1596,11 @@
       "absolutePath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 238,
-      "prettySize": "238 B",
-      "modifiedTime": "2018-07-29T19:03:58.000Z",
-      "accessTime": "2018-08-07T00:01:21.000Z",
-      "changeTime": "2018-07-29T19:03:58.000Z",
+      "size": 272,
+      "prettySize": "272 B",
+      "modifiedTime": "2018-08-07T00:16:40.000Z",
+      "accessTime": "2018-08-07T00:42:42.000Z",
+      "changeTime": "2018-08-07T00:16:40.000Z",
       "birthTime": "2018-07-29T19:03:58.000Z",
       "root": "/",
       "dir": "/Users/emilydavidson/Sites/emzilla.github.io/src",
@@ -1622,20 +1610,20 @@
       "relativeDirectory": "..",
       "dev": 16777219,
       "mode": 16877,
-      "nlink": 7,
+      "nlink": 8,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 55920175,
       "blocks": 0,
-      "atimeMs": 1533600081000,
-      "mtimeMs": 1532891038000,
-      "ctimeMs": 1532891038000,
+      "atimeMs": 1533602562000,
+      "mtimeMs": 1533601000000,
+      "ctimeMs": 1533601000000,
       "birthtimeMs": 1532891038000,
-      "atime": "2018-08-07T00:01:21.000Z",
-      "mtime": "2018-07-29T19:03:58.000Z",
-      "ctime": "2018-07-29T19:03:58.000Z",
+      "atime": "2018-08-07T00:42:42.000Z",
+      "mtime": "2018-08-07T00:16:40.000Z",
+      "ctime": "2018-08-07T00:16:40.000Z",
       "birthtime": "2018-07-29T19:03:58.000Z"
     },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/2018-07-26-welcome absPath of file": {
@@ -1643,7 +1631,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "731bdcfcc57f9d5ec0e17e2f95092dba",
+        "contentDigest": "f97e27d6fa13060f6e9fdfab67b4df9e",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-07-26-welcome\"",
         "owner": "gatsby-source-filesystem"
@@ -1655,7 +1643,7 @@
       "size": 136,
       "prettySize": "136 B",
       "modifiedTime": "2018-07-29T19:03:58.000Z",
-      "accessTime": "2018-08-07T00:01:21.000Z",
+      "accessTime": "2018-08-07T00:42:42.000Z",
       "changeTime": "2018-07-29T19:03:58.000Z",
       "birthTime": "2018-07-29T19:03:58.000Z",
       "root": "/",
@@ -1673,11 +1661,11 @@
       "blksize": 4096,
       "ino": 55920176,
       "blocks": 0,
-      "atimeMs": 1533600081000,
+      "atimeMs": 1533602562000,
       "mtimeMs": 1532891038000,
       "ctimeMs": 1532891038000,
       "birthtimeMs": 1532891038000,
-      "atime": "2018-08-07T00:01:21.000Z",
+      "atime": "2018-08-07T00:42:42.000Z",
       "mtime": "2018-07-29T19:03:58.000Z",
       "ctime": "2018-07-29T19:03:58.000Z",
       "birthtime": "2018-07-29T19:03:58.000Z"
@@ -1987,134 +1975,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /2018-07-26/welcome/": {
-      "layout": "index",
-      "jsonName": "2018-07-26-welcome.json",
-      "internalComponentName": "Component20180726Welcome",
-      "path": "/2018-07-26/welcome/",
-      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
-      "componentChunkName": "component---src-templates-blog-post-jsx",
-      "context": {
-        "path": "/2018-07-26/welcome/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
-      "id": "SitePage /2018-07-26/welcome/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4a8ccea07a7fa56ac7c7c4bcdc330544",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about/": {
-      "layout": "index",
-      "jsonName": "about.json",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx",
-      "componentChunkName": "component---src-pages-about-jsx",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "19ccc8306cb8911e137dc121e6271345",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
-      "componentChunkName": "component---src-pages-index-jsx",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "7f366e41c9fb15a9bc64ba21a41c7855",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /posts/": {
-      "layout": "index",
-      "jsonName": "posts.json",
-      "internalComponentName": "ComponentPosts",
-      "path": "/posts/",
-      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx",
-      "componentChunkName": "component---src-pages-posts-jsx",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx",
-      "id": "SitePage /posts/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "31cbaaf6532a59f6292ae064804f0af9",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /resume/": {
-      "layout": "index",
-      "jsonName": "resume.json",
-      "internalComponentName": "ComponentResume",
-      "path": "/resume/",
-      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx",
-      "componentChunkName": "component---src-pages-resume-jsx",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx",
-      "id": "SitePage /resume/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "8b7956270ffdb3dbcdd1f7ec7a40d4fc",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /contact/": {
-      "layout": "index",
-      "jsonName": "contact.json",
-      "internalComponentName": "ComponentContact",
-      "path": "/contact/",
-      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx",
-      "componentChunkName": "component---src-pages-contact-jsx",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx",
-      "id": "SitePage /contact/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2082c649768e77741d3a361b2f13cef4",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
     "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx absPath of file": {
       "id": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx absPath of file",
       "children": [],
@@ -2159,6 +2019,155 @@
       "mtime": "2018-08-07T00:21:44.000Z",
       "ctime": "2018-08-07T00:21:44.000Z",
       "birthtime": "2018-08-07T00:16:40.000Z"
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9527fc79dd07b0d9ec15067e242711a5",
+        "description": "Plugin gatsby-plugin-offline",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /2018-07-26/welcome/": {
+      "layout": "index",
+      "jsonName": "2018-07-26-welcome.json",
+      "internalComponentName": "Component20180726Welcome",
+      "path": "/2018-07-26/welcome/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "componentChunkName": "component---src-templates-blog-post-jsx",
+      "context": {
+        "path": "/2018-07-26/welcome/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/templates/blog-post.jsx",
+      "id": "SitePage /2018-07-26/welcome/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "564178452feff7f7bc5e96304bdf2f0f",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx",
+      "componentChunkName": "component---src-pages-about-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/about.jsx",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c6ec53037af3b7f2e6ab91080478a19e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx",
+      "componentChunkName": "component---src-pages-contact-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/contact.jsx",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0e286c669ec60d17b92a6a5f680384b3",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
+      "componentChunkName": "component---src-pages-index-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/index.jsx",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ecfb4166a9a14bac23eb855d6accba8e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/": {
+      "layout": "index",
+      "jsonName": "posts.json",
+      "internalComponentName": "ComponentPosts",
+      "path": "/posts/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx",
+      "componentChunkName": "component---src-pages-posts-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/posts.jsx",
+      "id": "SitePage /posts/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f8b6a6213782eac3ba1faea9f28401e7",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /resume/": {
+      "layout": "index",
+      "jsonName": "resume.json",
+      "internalComponentName": "ComponentResume",
+      "path": "/resume/",
+      "component": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx",
+      "componentChunkName": "component---src-pages-resume-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/emilydavidson/Sites/emzilla.github.io/src/pages/resume.jsx",
+      "id": "SitePage /resume/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "62861087974a7284d4eda0cdea86a85f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {

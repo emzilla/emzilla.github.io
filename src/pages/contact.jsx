@@ -6,7 +6,7 @@ import { Container, ContentContainer, ContentPinkAlt, LayoutFlex } from '../comp
 
 const Contact = () => (
   // const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-  <LayoutFlex>
+  <LayoutFlex role='main'>
     <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
     <Container>
       <ContentPinkAlt>
@@ -33,11 +33,6 @@ const Contact = () => (
           <p>
             <a href='https://emilymdavidson.tumblr.com/' target='blank'>
               Tumblr
-            </a>
-          </p>
-          <p>
-            <a href='https://twitter.com/emzillatron' target='blank'>
-              Twitter
             </a>
           </p>
           <p>

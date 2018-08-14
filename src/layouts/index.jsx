@@ -12,7 +12,9 @@ class AppLayout extends React.Component {
         <Helmet link={[{ rel: 'shortcut icon', type: 'image/png', href: '../../favicon.ico' }]} />
         {header}
         <Logo>
-          <Link to='/'>const home = &#40;&#41; => emzil.la</Link>
+          <Link to='/' id='logo'>
+            const home = &#40;&#41; => emzil.la
+          </Link>
         </Logo>
         <Menu
           links={[

@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Emily Davidson',
+    title: 'Emily Davidson - Front End Developer',
     author: 'Emily Davidson',
   },
   plugins: [
+    'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

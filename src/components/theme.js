@@ -7,7 +7,7 @@ const theme = {
   accentColor: '#ef2335',
   accentGradient: 'linear-gradient(-45deg, #23cd9b, #fac305)',
   accentGradientTransparent:
-    'linear-gradient(45deg, rgba(250, 195, 5, .1), rgba(35, 205, 155, 0.1))',
+    'linear-gradient(45deg,rgba(250, 243, 215, 0.4),rgba(169, 221, 206, 0.4))',
   reverseGradient: 'linear-gradient(45deg, #23cd9b, #fac305)',
   fontColor: '#212927',
   fontColorInverse: '#fff',

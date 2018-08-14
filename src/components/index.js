@@ -43,6 +43,10 @@ injectGlobal`
         color: ${theme.accentColor};
     }
   }
+
+  small {
+    font-family: 'Fira Mono', 'Monaco', 'Courier', 'monospace';
+  }
 `
 
 export Button from './button/button'

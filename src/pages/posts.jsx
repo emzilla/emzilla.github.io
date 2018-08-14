@@ -10,7 +10,7 @@ class PostsList extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <Layout>
+      <Layout role='main'>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         <Container>
           {posts.map((post) => {

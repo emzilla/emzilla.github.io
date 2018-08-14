@@ -58,10 +58,6 @@ const StyledMenu = styled.nav`
     margin-bottom: 0;
     padding-left: ${theme.paddingMd};
     padding-right: ${theme.paddingMd};
-
-    &:last-of-type {
-      margin-left: auto;
-    }
   }
 
   a {
@@ -192,13 +188,14 @@ class Menu extends React.Component {
     }
 
     return (
-      <StyledMenu onClick={handleClick} isClosed={this.state.closed}>
+      <StyledMenu
+        onClick={handleClick}
+        isClosed={this.state.closed}
+        role='navigation'
+        aria-label='Main Navigation'
+        aria-expanded={!this.state.closed}
+      >
         <ul>
-          {links.map((link, index) => (
-            <li key={index}>
-              <Link to={link.path}>{link.name}</Link>
-            </li>
-          ))}
           <li>
             <StyledButton onClick={handleClick} isClosed={this.state.closed}>
               <VisuallyHidden>Menu</VisuallyHidden>
@@ -208,6 +205,11 @@ class Menu extends React.Component {
               <MenuLine menuLineBottom isClosed={this.state.closed} />
             </StyledButton>
           </li>
+          {links.map((link, index) => (
+            <li key={index}>
+              <Link to={link.path}>{link.name}</Link>
+            </li>
+          ))}
         </ul>
       </StyledMenu>
     )

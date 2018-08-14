@@ -6,14 +6,14 @@ import { ContentContainer, ContentPink, Hero, HeroContainer, LayoutFlex } from '
 
 const BlogIndex = () => (
   // const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-  <LayoutFlex>
+  <LayoutFlex role='main'>
     <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
     <HeroContainer>
       <Hero>
         <h1>
           <Link to='/'>Hello, World.</Link>
         </h1>
-        <img src='../../emily-laugh-2.png' alt='' />
+        <img src='../../emily-laugh-2.png' alt='Picture of Emily laughing' />
       </Hero>
       <ContentPink homeContent>
         <ContentContainer>

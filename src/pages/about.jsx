@@ -6,7 +6,7 @@ import { Container, ContentContainer, ContentPinkAlt, LayoutFlex } from '../comp
 
 const About = () => (
   // const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-  <LayoutFlex>
+  <LayoutFlex role='main'>
     <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
     <Container>
       <ContentPinkAlt>
@@ -23,9 +23,9 @@ const About = () => (
           </p>
           <p>
             Even though I made front end development my full-time job, I have a bunch of
-            side-projects and hobbies to keep me busy. I still absolutely love graphic design (and
-            Adobe Illustrator) and I do a ton of illustration work. My favorite hobby has always
-            been painting.
+            side-projects and hobbies to keep me busy. I still love graphic design (and Adobe
+            Illustrator) and I do a ton of illustration work. Also in the creative field, one of my
+            favorite hobbies has always been painting.
           </p>
           <p>
             My development work is on{' '}
